@@ -1,0 +1,33 @@
+{
+  "name": "enginex.js",
+  "version": "1.0.1",
+  "description": "Embedded Server Side JavaScript",
+  "main": "enginex\\enginex.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justindh85/EnginEx.git"
+  },
+  "keywords": [
+    "Embedded",
+    "Server-Side",
+    "JavaScript",
+    "view",
+    "engine",
+    "express",
+    "pre",
+    "processor",
+    "html",
+    "templates",
+    "EnginEx",
+    "EngineEx.js"
+  ],
+  "author": "Justin Duane Harlan <justindh85@gmail.com> (http://justinharlan.x10.mx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justindh85/EnginEx/issues"
+  },
+  "homepage": "https://github.com/justindh85/EnginEx"
+}
