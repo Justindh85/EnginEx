@@ -178,7 +178,7 @@ After you have your directories setup, then you should make sure you install [**
 	npm install express	
 and
 
-	npm install engine
+	npm install enginex
 
 ### server.js
 The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is very straight forward and it's as simple as adding a plugin, serious it should have to get any easier you are actually going to just set up a server. So lets begin, most of the information you need to know is documented in the file as comments being that I expect the reader to be familiar with [***Node.js***](http://nodejs.org/ "Node.js") and [***Express.js***](http://expressjs.com/ "Express.js"). This example website will literal only need two module to start of with, Which you should already have installed.

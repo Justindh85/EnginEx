@@ -53,7 +53,7 @@ If you are familiar with PHP then you will appreciate ***EnginEx.js*** because o
 You can install ***EnginEx.js*** NPM
 
 NPM download Command
->`> npm install engine`
+>`> npm install enginex`
 **EnginEx.js Basic API**
 EnginEx.js has some built-in  functions and objects that you may find very useful
 
@@ -178,14 +178,14 @@ After you have your directories setup, then you should make sure you install [**
 	npm install express	
 and
 
-	npm install engine
+	npm install enginex
 
 ### server.js
 The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is very straight forward and it's as simple as adding a plugin, serious it should have to get any easier you are actually going to just set up a server. So lets begin, most of the information you need to know is documented in the file as comments being that I expect the reader to be familiar with [***Node.js***](http://nodejs.org/ "Node.js") and [***Express.js***](http://expressjs.com/ "Express.js"). This example website will literal only need two module to start of with, Which you should already have installed.
 
     //server.js
 	// Require EnginEx.js
-	var engine			= require('engine');
+	var enginex			= require('enginex');
 	// Require Express.js
     var express			= require('express');
     var app				= express();
@@ -205,7 +205,7 @@ The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is ve
 
 		// Registering the engine in Express.js
 		// to EnginEx.js.
-    	app.engine('html', engine.__engine);
+    	app.engine('html', enginex.__engine);
     	// !!You may also use!! "app.engine('html', engine.__express);".
 
 		// Setting the default engine extension to use when omitted.
