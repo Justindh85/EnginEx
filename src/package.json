@@ -1,6 +1,6 @@
 {
   "name": "enginex",
-  "version": "1.0.31",
+  "version": "1.0.33",
   "description": "Embedded Server Side JavaScript",
   "main": "enginex\\enginex.min.js",
   "scripts": {
@@ -24,6 +24,11 @@
     "EnginEx",
     "EngineEx.js"
   ],
+  "dependencies": {
+    "esprima": ">= 1.2.x",
+    "estraverse": ">= 1.9.x",
+    "escodegen": ">= 1.6.x"
+  },
   "author": "Justin Duane Harlan <justindh85@gmail.com> (http://justinharlan.x10.mx)",
   "license": "MIT",
   "bugs": {
