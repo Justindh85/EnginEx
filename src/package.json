@@ -1,6 +1,6 @@
 {
-  "name": "enginex.js",
-  "version": "1.0.1",
+  "name": "enginex",
+  "version": "1.0.31",
   "description": "Embedded Server Side JavaScript",
   "main": "enginex\\enginex.min.js",
   "scripts": {

@@ -16,21 +16,22 @@
  * Conclusion
  * License
 
-#### Author: Justin D Harlan
+### Author: Justin D Harlan
 
 There are many title you can give me, title such as designer, developer, programmer, coder, and even software engineer. Those title are fine and all but the reality is that they are just titles to me, or name with narrow perspective of the passion it take to push forwards beyond preconceive boundaries. In truth like so many others that believe as I do being a programmer may not be enough, but being a problem solver that is something more than just a simple coder. I am a Problem solver and the programming is only one of my tools. In the last decade I have used graphic design, web design, video editing, 3D modeling, After Affects, Photoshop, ActionScript 2.0/3.0, HTML, CSS, JavaScript, PHP, jQuery, MYSQL, WordPress, XML, ffmpeg, video brodcasting, networking, NOSQL, JSON, Node.js and many more things to push the limits and produce a solution. All these thing are tools to get a favorable result. I am passionate about what I do is an understatement because I because I seek to be the best version of me. For the record how do I see myself when I think of what the best version of me is, well that is simple. The best version of me is building and/or fixing what ever I can.
 
-####What is EnginEx.js?
+### What is EnginEx.js?
 ***EnginEx.js*** ( MIT license ) is a high performance template engine framework, written in ECMAScript which is popularly known to most as JavaScript. ***EnginEx.js*** is created and maintained by ***Justin Duane Harlan***
 
-####EnginEx.js Features
+### EnginEx.js Features
+
 - Full support for ECMAScript 5.1 ([ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm "ECMAScript® Language Specification")) 
 - Uses [***Node.js***](http://nodejs.org/ "Node.js") full JavaScript language and it's API inside ***EnginEx.js*** Embedded server-side JavaScript.
 - Block Statements inside ***EnginEx.js*** Embedded server-side JavaScript actively  interacts with HTML (very much like PHP).
 - The include method not only includes the files, it also allows for ***EnginEx.js*** Embedded server-side JavaScript to interact with the scope that the include method was are called in, from within the included file.
 - As I mentioned before, ***EnginEx.js*** allows for the uses [***Node.js***](http://nodejs.org/ "Node.js") full JavaScript language and it's API. So just to be clear yes you can use `process` and `require` along with many other tools that come along with [***Node.js***](http://nodejs.org/ "Node.js").
 
-####Introduction to EnginEx.js
+### Introduction to EnginEx.js
 There are so many people that is raving about logic-less templates. Well ***EnginEx.js*** is not about that. I not saying you cant produces logic-less templates with my software, I'm just saying that my software is about embedding sever side JavaScript directly in to the HTML code to give developers a better option and a easier work flow method than writing server-side files and HTML files. With the ability to create actual class documents With the ability to modify the HTML code before the prepossessing stage it will give you the power to produce website with the capabilities more closer to PHP development style than any other view engine before. 
 
 ***EnginEx.js*** is a view engine that  mirrors the way PHP's embeds server-side script into HTML code. The main benefits to using ***EnginEx.js*** is the ability to load the run included files from a file. When using the include function to load files you can create template files and [***Node.js***](http://nodejs.org/ "Node.js")  server-side script class files. ***EnginEx.js*** allows for the embedded [***Node.js***](http://nodejs.org/ "Node.js") Script to be modified and the page to be refreshed, without having restarting [***Node.js***](http://nodejs.org/ "Node.js").
@@ -39,19 +40,21 @@ The purpose of the development of ***EnginEx.js*** is to increase developers wor
 
 If you are familiar with PHP then you will appreciate ***EnginEx.js*** because of one of its for most focus points is to make PHP developers learning curve for [***Node.js***](http://nodejs.org/ "Node.js") less complex, being that I am very fond of PHP and can't help but to miss some of the benefits of its language. So to resolve an the yearning of missing some of the strong benefits of PHP I wrote ***EnginEx.js*** to merge the gaps in [***Node.js***](http://nodejs.org/ "Node.js") development for PHP developers.
 
-####Requirements of EnginEx.js
+**Requirements of EnginEx.js**
+
 [***Node***](http://nodejs.org/ "Node.js") 0.8.0 +
 
 [***Express***](http://expressjs.com/ "Express.js") 4.0.x +
 
 >`> npm install express`
 
-####Installation of EnginEx.js
+**Installation of EnginEx.js**
+
 You can install ***EnginEx.js*** NPM
 
 NPM download Command
->`> npm install engine`
-####EnginEx.js Basic API
+>`> npm install enginex`
+**EnginEx.js Basic API**
 EnginEx.js has some built-in  functions and objects that you may find very useful
 
 **include( path)  #method**
@@ -133,7 +136,7 @@ Example Usage:
 	globals['method']=function(a){ var b=a+1; return b;}
 	var c = globals.method(1)===2; //c=true
 
-####Basic Usage of EnginEx.js in a HTML File
+###Basic Usage of EnginEx.js in a HTML File
 When using EnginEx.js inside the HTML file you can enter and escape the [***Node.js***](http://nodejs.org/ "Node.js") server-side JavaScript by the opening tag `<?njs` and closing tag `?>`. 
 
 	<?njs /*Node.js embedded server-side JavaScript goes in here…*/ ?>
@@ -143,7 +146,7 @@ The code above is an basic example of how to use the server-side JavaScript tag 
 The reason for this is because I wanted PHP developers to be comfortable with its syntax and also because the developers that will be using ***EnginEx.js*** will have an rare ability to use ***EnginEx.js***'s embedded server-side JavaScript much like a PHP developer would use php.
 ##A Simple Example of a Website
 This Section is an example how to make an simple website with a ***EnginEx.js*** as your view engine. What you will also learn in this section is that ***EnginEx.js*** goes farther beyond the limits of your average view engine to open up a new world of possibilities.
-####Configuring The Server
+###Configuring The Server
 When configuring ***EnginEx.js*** , it is important that you remember that ***EnginEx.js*** was developed to work with the Express module and is also Express-compliant. Below is an outline of the web directory and it's files.
 
 The **folders** are in a **bold** font style and the *files* are in a *italic* font style.
@@ -177,12 +180,12 @@ and
 
 	npm install engine
 
-##### server.js
+### server.js
 The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is very straight forward and it's as simple as adding a plugin, serious it should have to get any easier you are actually going to just set up a server. So lets begin, most of the information you need to know is documented in the file as comments being that I expect the reader to be familiar with [***Node.js***](http://nodejs.org/ "Node.js") and [***Express.js***](http://expressjs.com/ "Express.js"). This example website will literal only need two module to start of with, Which you should already have installed.
 
     //server.js
 	// Require EnginEx.js
-	var engine			= require('engine');
+	var enginex			= require('enginex');
 	// Require Express.js
     var express			= require('express');
     var app				= express();
@@ -202,7 +205,7 @@ The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is ve
 
 		// Registering the engine in Express.js
 		// to EnginEx.js.
-    	app.engine('html', engine.__engine);
+    	app.engine('html', enginex.__engine);
     	// !!You may also use!! "app.engine('html', engine.__express);".
 
 		// Setting the default engine extension to use when omitted.
@@ -265,9 +268,9 @@ The basic set for the [***Node.js***](http://nodejs.org/ "Node.js") server is ve
     	app.use(router);
     });
 
-####Putting together the HTML Files
+###Putting together the HTML Files
 This example website is based on a [***RESTfull Architecture***](http://en.wikipedia.org/wiki/Representational_state_transfer "Representational State Transfer") style of web design. The purpose of the example is show the simplicity and the possibilities of using ***EnginEx.js***. While displaying its ease of using ***EnginEx.js*** to develop website PHP developers should see how easy it would be to translate most websites from PHP to Node.js using  ***EnginEx.js***.
-##### index.html
+**index.html**
 
 Below is the index.html file
 
@@ -323,7 +326,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### header.html
+**header.html**
+
 	<?njs //header.html ?>
 	<!DOCTYPE html>
 	<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -350,7 +354,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### head.html
+**head.html**
+
 	<?njs //head.html ?>
 	<head>
 		<meta charset="utf-8">
@@ -365,7 +370,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### content.html
+**content.html**
+
 	<?njs //content.html ?>
 	<div id="admin-content">
 		<div id="admin-content-head">
@@ -384,7 +390,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### footer.html
+**footer.html**
+
 	<?njs //footer.html ?>
 			<footer>
 				<div class="common_width">
@@ -404,7 +411,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### home.html
+**home.html**
+
 	<?njs //home.html ?>
 	<div id="home" class='page home'>
 		<p>Home page contents goes here...</p>
@@ -412,7 +420,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### about.html
+**about.html**
+
 	<?njs //about.html ?>
 	<div id="about" class='page about'>
 		<p>About page contents goes here...</p>
@@ -420,7 +429,8 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### services.html
+**services.html**
+
 	<?njs //services.html ?>
 	<div id="services" class='page services'>
 		<p>Services page contents goes here...</p>
@@ -428,14 +438,16 @@ Below is the index.html file
 
 -------------------------------------------------
 
-##### contact.html
+**contact.html**
+
 	<div id="contact" class='page contact'>
 		<p>Contact page contents goes here...</p>
 	</div>
 
 -------------------------------------------------
 
-##### styles.css
+**styles.css**
+
 	html {
 		/* $rembase = 10px */
 	    font-size: 62.5%
@@ -610,11 +622,11 @@ Below is the index.html file
 
 -------------------------------------------------
 
-###Conclusion
+## Conclusion
 
 Well as I hope you can see that here are thousands of possible applications that can be produced by EnginEx.js and EnginEx.js does not just a novelty but a real actual beneficial tool that can that can improve the development of any project that has an user interface.
 
-###License
+## License
 
 The MIT License (MIT)
 
