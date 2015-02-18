@@ -1,6 +1,6 @@
 {
   "name": "enginex",
-  "version": "1.0.4",
+  "version": "1.0.41",
   "description": "Embedded Server Side JavaScript Engine (\"It's like the JavaScript version of PHP\")",
   "main": "enginex\\enginex.min.js",
   "scripts": {
