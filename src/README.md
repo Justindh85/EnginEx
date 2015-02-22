@@ -1,4 +1,10 @@
 ![EnginEx.js :The Best Embedded Server-side JavaScript You Will Ever Use!](http://i.imgur.com/agsSZY5.png)
+
+If you like this project and you would like to see it continued
+[***donate Now on Kickstarter.com***](https://www.kickstarter.com/projects/1143508444/enginexjs "Donate now on Kickstarter.com") or share us with your friends.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/-xrHmSIcvgI" frameborder="0" allowfullscreen></iframe>
+
 ---------------------------
 ### TABLE OF CONTENTS
  * About Justin D Harlan
